@@ -50,7 +50,7 @@ Works with Claude Code, Cursor, Windsurf, Google Antigravity, Copilot, and open 
       <sub><b>Graphify Codebase Memory</b></sub>
     </td>
     <td width="33.3%" align="center">
-      <a href="agent_skills/apple-design/"><img src="docs/gallery/media_1792601691837_121e8343.png" alt="Apple Design System"></a>
+      <a href="agent_skills/apple-design/"><img src="" alt="Apple Design System"></a>
       <br/>
       <sub><b>Apple Design Foundations</b></sub>
     </td>
