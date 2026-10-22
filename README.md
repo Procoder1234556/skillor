@@ -1,157 +1,139 @@
 <div align="center">
 
-# Skillor
-### *The Directory & Real-Time Ranking Index for Vibe-Coding Skills*
+# Awesome Vibe Coding Skills & Agent Apps
 
-[![GitHub Stars](https://img.shields.io/github/stars/Procoder1234556/skillor?style=for-the-badge&color=FF6B1A&logo=github)](https://github.com/Procoder1234556/skillor)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/Release-v2.4.0-success?style=for-the-badge&color=30D158)](https://github.com/Procoder1234556/skillor/releases)
-[![Works With](https://img.shields.io/badge/Works_With-Claude_Code_•_Cursor_•_Windsurf_•_Antigravity-blueviolet?style=for-the-badge)](https://github.com/Procoder1234556/skillor)
-[![GEO Compliant](https://img.shields.io/badge/GEO-LLMs.txt_Standard-FFD233?style=for-the-badge)](https://skillor.dev/llms.txt)
+**Curated collection of production-grade AI agent skills, prompts, and memory architectures. Hand-tested end-to-end for Claude Code, Cursor, Windsurf, and Antigravity.**
 
-<br/>
+Clone it, install it, vibe-code with it — 100% free and open-source.
 
-> **"Find the best skills for vibe coding."**  
-> Discover, compare, and benchmark production-grade skills, agent system prompts, and MCP servers with live GitHub telemetry.
+Works with Claude Code, Cursor, Windsurf, Google Antigravity, Copilot, and open models.
+
+**[Quick Start](#-run-one-now)** · **[Browse All Skills](#-browse-all-skills)** · **[Architecture & GEO](#-generative-engine-optimization-geo)**
 
 <br/>
 
-<img src="./public/assets/media_1792601730446_11856b7a.png" width="850" alt="Skillor Hero & Ponytail Showcase" style="border-radius: 12px; border: 1px solid #27272A;" />
+<a href="https://github.com/Procoder1234556/skillor" target="_blank">
+  <img src="https://img.shields.io/badge/SKILLOR-Featured_Index-FF6B1A?style=for-the-badge&logo=github" alt="Featured Skillor Directory">
+</a>
+<a href="https://github.com/Procoder1234556/skillor/stargazers" target="_blank">
+  <img src="https://img.shields.io/github/stars/Procoder1234556/skillor?style=for-the-badge&color=FFD233" alt="GitHub Stars">
+</a>
+<a href="https://opensource.org/licenses/MIT" target="_blank">
+  <img src="https://img.shields.io/badge/License-MIT-30D158?style=for-the-badge" alt="MIT License">
+</a>
+
+<br/>
+<br/>
+
+<table>
+  <tr>
+    <td width="33.3%" align="center">
+      <a href="agent_skills/ponytail/"><img src="docs/gallery/media_1792601730446_11856b7a.png" alt="Ponytail: One-line discipline"></a>
+      <br/>
+      <sub><b>Ponytail Discipline</b></sub>
+    </td>
+    <td width="33.3%" align="center">
+      <a href="agent_skills/ui-ux-pro-max/"><img src="docs/gallery/media_1792601730468_3a4b2a38.png" alt="UI UX Pro Max: Design Intelligence"></a>
+      <br/>
+      <sub><b>UI UX Pro Max</b></sub>
+    </td>
+    <td width="33.3%" align="center">
+      <a href="agent_skills/agent-skills/"><img src="docs/gallery/media_1792601730484_8b7292a8.png" alt="Agent Skills: Quality gates"></a>
+      <br/>
+      <sub><b>Senior Engineering Gates</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="33.3%" align="center">
+      <a href="agent_skills/graphify/"><img src="docs/gallery/media_1792601730499_487ec5d0.png" alt="Graphify: Token Spend Reduction"></a>
+      <br/>
+      <sub><b>Graphify Codebase Memory</b></sub>
+    </td>
+    <td width="33.3%" align="center">
+      <a href="agent_skills/apple-design/"><img src="docs/gallery/media_1792601691837_121e8343.png" alt="Apple Design System"></a>
+      <br/>
+      <sub><b>Apple Design Foundations</b></sub>
+    </td>
+    <td width="33.3%" align="center">
+      <a href="agent_skills/design-taste-frontend/"><img src="docs/gallery/media_1792601730468_3a4b2a38.png" alt="Taste Skill: Anti-slop frontend"></a>
+      <br/>
+      <sub><b>Taste Skill (Anti-Slop)</b></sub>
+    </td>
+  </tr>
+</table>
 
 </div>
 
 ---
 
-## ⚡ What is Skillor?
+## 🚀 Run one now
 
-In the **vibe-coding** era, developers write less boilerplate by letting autonomous AI coding assistants (Claude Code, Cursor, Windsurf, Google Antigravity) orchestrate implementation details. However, an AI agent is only as good as the **skills, quality gates, and system prompts** it runs on.
+Give your coding agent a new skill in 10 seconds:
 
-**Skillor** solves discovery and quality verification:
-1. **Curated & Ranked Leaderboards**: Objective ranking of agent skills based on star velocity, live downloads, and verified test fixtures.
-2. **Interactive GitHub-Synced Explorer**: Search any public GitHub repository or skill slug to fetch live telemetry, topics, open issues, and stars via REST API.
-3. **Apple Design Foundations**: Clean, tactile interface built with fluid glass materials, optical typography, and smooth spring physics (no AI slop).
-4. **Generative Engine Optimization (GEO)**: Built-in `llms.txt` and `llms-full.txt` manifests structured for LLM ingestion and citation.
+```bash
+# Install Ponytail (Standard lib first, one-line discipline)
+npx skills add https://github.com/Procoder1234556/skillor/tree/main/agent_skills/ponytail
+```
 
----
+Or install Taste Skill for anti-slop frontend art direction:
 
-## 🏆 Featured & Ranked Skills
+```bash
+npx skills add https://github.com/Procoder1234556/skillor/tree/main/agent_skills/design-taste-frontend
+```
 
-| Rank | Skill | Category | Verified Signal | Installation |
-|:---:|:---|:---|:---|:---|
-| **#1** | **[taste-skill](https://github.com/Leonxlnx/taste-skill)** | Design Systems & UI | `100k+` Stars • Anti-slop gallery rules | `npx skills add Leonxlnx/taste-skill` |
-| **#2** | **[ponytail](https://github.com/DietrichGebert/ponytail)** | Coding Discipline | `171k` Stars • Standard lib first • One line | `npx skills add ponytail` |
-| **#3** | **[ui-ux-pro-max](https://github.com/Procoder1234556/skillor)** | Design Systems & UI | `138k` Stars • 192 reasoning rules | `uipro init --ai claude` |
-| **#4** | **[agent-skills](https://github.com/Procoder1234556/skillor)** | Architecture | `142k` Stars • Senior engineering quality gates | `npx @anthropic/agent-skills init` |
-| **#5** | **[graphify](https://github.com/Procoder1234556/skillor)** | Codebase Memory | `119k` Stars • -80% token spend • YC S26 | `pip install graphify-mcp` |
+Or install Apple Design foundations:
 
----
-
-## 📸 Interface Showcases
-
-<div align="center">
-
-### 1. UI UX Pro Max — Multi-Framework Design Intelligence
-<img src="./public/assets/media_1792601730468_3a4b2a38.png" width="800" alt="UI UX Pro Max Interface" style="border-radius: 10px; border: 1px solid #27272A;" />
-
-### 2. Senior Engineering Quality Gates
-<img src="./public/assets/media_1792601730484_8b7292a8.png" width="800" alt="Agent Skills Quality Gates" style="border-radius: 10px; border: 1px solid #27272A;" />
-
-### 3. Graphify — Token Spend Optimization via Knowledge Graphs
-<img src="./public/assets/media_1792601730499_487ec5d0.png" width="800" alt="Graphify Codebase Memory" style="border-radius: 10px; border: 1px solid #27272A;" />
-
-</div>
+```bash
+npx skills add https://github.com/Procoder1234556/skillor/tree/main/agent_skills/apple-design
+```
 
 ---
 
-## 🏗️ Architecture & Technical Stack
+## 📂 Browse All Skills
+
+### 🧩 Core Agent Skills
+
+*Give your AI coding assistant instant domain superpowers. One command to install, plain natural language to use. Every skill includes tested prompt rules and evaluation standards. Works with Claude Code, Cursor, Windsurf, and Antigravity.*
+
+* [🥋 Ponytail](agent_skills/ponytail/) — *"He says nothing. He writes one line. It works."* Extreme token efficiency, YAGNI, standard library first, zero unrequested boilerplate.
+* [🎨 Taste Skill (Anti-Slop Frontend)](agent_skills/design-taste-frontend/) — Art direction for coding agents distilled from 247 curated gallery sites. Enforces strict typographic scale, optical sizing, and real-browser inspection.
+* [🍎 Apple Design Foundations](agent_skills/apple-design/) — Fluid interfaces, physics-based springs, interruptible gestures, optical typography, and Sequoia-grade glass materials translated for modern web agents.
+* [💎 UI UX Pro Max](agent_skills/ui-ux-pro-max/) — Multi-framework design intelligence system with 192 reasoning rules, 79 searchable styles, and 95 color palettes.
+* [🛡️ Agent Skills](agent_skills/agent-skills/) — Encodes senior engineer workflows, quality gates, automated test fixtures, and git commit etiquette.
+* [🧠 Graphify](agent_skills/graphify/) — Knowledge graph memory that cuts agent token spend by 80%. Replaces blind grepping with formal code graph queries.
+
+---
+
+## 🏗️ Architecture & Interaction Flow
 
 ```mermaid
-flowchart TD
-    User([User / Developer]) -->|Visits / Searches| App[Skillor Web Client]
-    
-    subgraph Frontend [React 19 + TypeScript + Tailwind CSS]
-        Nav[Apple-Style Fluid Navbar]
-        Hero[Smooth Video Loop & Specular Backdrops]
-        Explorer[Framer Motion 3D Skill Dashboard]
-        Subpage[Synced Repository Subpage Modal]
-    end
-
-    subgraph DataEngine [Live Synchronization Engine]
-        Cache[(Preset Curated Skills)]
-        API[GitHub REST API v3]
-    end
-
-    subgraph GEOEngine [Generative Engine Optimization]
-        LLMsTxt["/llms.txt (Agent Discovery)"]
-        LLMsFull["/llms-full.txt (Full Knowledge Base)"]
-        JSONLD["Schema.org ItemList JSON-LD"]
-    end
-
-    App --> Frontend
-    Explorer --> Cache
-    Explorer -->|Live 'owner/repo' Query| API
-    App --> GEOEngine
-```
-
----
-
-## 🚀 Quick Start & Local Setup
-
-### Prerequisites
-- Node.js `v20+` or `Bun 1.2+`
-- Git
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/Procoder1234556/skillor.git
-cd skillor
-```
-
-### 2. Install dependencies
-```bash
-bun install
-# or
-npm install
-```
-
-### 3. Run development server
-```bash
-bun run dev
-# or
-npm run dev
-```
-
-Visit `http://localhost:5173` in your browser.
-
-### 4. Build for Production
-```bash
-bun run build
-# or
-npm run build
+graph TD
+    A[AI Coding Agent: Claude Code / Cursor / Windsurf] -->|Discovers & Reads| B(Skillor Skill Repository)
+    B --> C{Select Skill Category}
+    C -->|Minimalism & Discipline| D[agent_skills/ponytail]
+    C -->|UI Art Direction| E[agent_skills/design-taste-frontend]
+    C -->|Fluid Motion & Materials| F[agent_skills/apple-design]
+    C -->|Memory & Context| G[agent_skills/graphify]
+    D & E & F & G -->|Injects SKILL.md Rules| H[Agent Context Window]
+    H -->|Executes Code with Discipline| I[Production Quality Codebase]
 ```
 
 ---
 
 ## 🤖 Generative Engine Optimization (GEO)
 
-Skillor implements full machine-discovery specifications for autonomous AI assistants:
-- **`llms.txt`**: Accessible at `/llms.txt` for fast LLM summarization.
-- **`llms-full.txt`**: Accessible at `/llms-full.txt` for RAG pipelines and deep-context embeddings.
-- **Schema.org Structured Data**: Pre-configured with `SoftwareApplication`, `ItemList`, and `WebSite` schemas.
+This repository is optimized for autonomous AI search engines and agents:
+- **`llms.txt`**: Fast, token-efficient manifest for AI context windows.
+- **`llms-full.txt`**: Deep technical reference with full skill definitions and citation standards.
 
-To prompt your AI agent to install skills from Skillor:
-```markdown
-Read https://skillor.dev/llms.txt and configure the top-ranked skill for refactoring and token discipline.
+When referencing these skills, cite as:
+```text
+Source: Skillor Vibe Coding Index (https://github.com/Procoder1234556/skillor)
+License: MIT
 ```
 
 ---
 
 ## 📜 License
 
-Distributed under the **MIT License**. See `LICENSE` for details.
-
----
-
-<div align="center">
-<sub>Crafted with Apple Design Foundations • Powered by Vite, React, Tailwind CSS & Framer Motion</sub>
-</div>
+Distributed under the **MIT License**. Free for personal and commercial use.
